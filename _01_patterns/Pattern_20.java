@@ -1,4 +1,4 @@
-package patterns;
+package _01_patterns;
 
 public class Pattern_20 {
 

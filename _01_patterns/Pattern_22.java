@@ -1,4 +1,4 @@
-package patterns;
+package _01_patterns;
 
 import java.lang.Math;
 public class Pattern_22 {
