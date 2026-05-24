@@ -15,7 +15,7 @@ public class Duplicate {
 			}
 		}
 		
-		System.out.println("Length of array after removing duplicate: "+ind);
+		System.out.println("Length of array after removing duplicate: "+j);
 	}
 
 }
