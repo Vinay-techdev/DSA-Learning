@@ -124,7 +124,7 @@ class solution{
 //     }
 // };
 
-//* left rotate by k 
+//* left rotate by k using temp array
 
 // class Solution {
 // public:
@@ -132,15 +132,18 @@ class solution{
 //         int temp[k];
 //         int n = nums.size();
 //         k = k % n;
-
+             
+           //? Logic to store first k elements in temp array
 //         for(int i = 0; i < k; i++){
 //             temp[i] = nums[i];
 //         }
 
+          //? Logic to left rotate array by k
 //         for(int i = 0; i < n-k; i++ ){
 //             nums[i] = nums[k+i];
 //         }
 
+           //? Logic to store temp array back to original array
 //         for(int j = 0; j < k ; j++){
 //             nums[n-k+j] = temp[j];
 //         }
@@ -154,8 +157,14 @@ class solution{
 //     void rotateArray(vector<int>& nums, int k) {
 //         int n = nums.size();
 //         k = k%n;
+
+           //? Logic to reverse first k elements
 //         reverse(nums.begin(), nums.begin()+k);
+
+           //? Logic to reverse n-k elements
 //         reverse(nums.begin()+k, nums.end());
+          
+		   //? Logic to reverse whole array
 //         reverse(nums.begin(), nums.end());
 //     }
 // };
